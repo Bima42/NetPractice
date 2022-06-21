@@ -30,6 +30,7 @@ Example :
 - **0: identifies the network** (see image: _192.168.0.0_)
 - **255: broadcast address** -> used to send a message to all network addresses (see image: _192.168.0.255_)
 - 256 - 2 = 254 usable addresses
+
 ![[Plage]](/readme_doc/plage_adressable.png)
 
 ### CIDR
