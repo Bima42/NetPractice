@@ -51,7 +51,7 @@ Example :
 
 ---
 ## Example (Level 06)
-![[Level_06](/readme_doc/Net)
+![[Level_06](/readme_doc/NetPratice-level06.png)
 ---
 ## Sources
 - [Tuto : IP and Mask](https://www.youtube.com/watch?v=RnpSaDSSjR4)
