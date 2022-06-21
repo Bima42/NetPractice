@@ -41,6 +41,18 @@ Example :
 - _Example: The mask 255.255.224.0, equivalent in binary to 11111111.11111111.11100000.00000000, will therefore be represented by **/19** (19 bits at the value 1, followed by 13 bits 0)._
 
 ---
+## Routing
+- network path selection mechanism for routing data from a sender to one or more recipients
+
+### Routing table
+= data structure used by a router or networked computer
+- associates prefixes with ways to route packets to their destination
+- In NetPractice, the use of routes is mainly used to direct unwanted packets (default or 0.0.0.0/0) to the nearest interface. Or direct incoming packets from the internet to the nearest interface
+
+---
+## Example (Level 06)
+![[Level_06](/readme_doc/Net)
+---
 ## Sources
 - [Tuto : IP and Mask](https://www.youtube.com/watch?v=RnpSaDSSjR4)
 - [Route](https://infoforall.fr/reseau/reseau-act030.html#:~:text=Etape%202%20%3A%20le%20switch%20va,de%20sa%20table%20de%20routage.)
