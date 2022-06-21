@@ -5,7 +5,7 @@ Pretty simple but you have to be confortable with some concept like IP address a
 ## IP address
 - allows elaboration and transport of IP datagrams (data packet) WITHOUT ENSURING THE DELIVERY
 - process packets independently of each other by defining their representation, routing and forwarding
-![[readme_doc/ip_address.png]]
+![[IP_address]](/readme_doc/ip_address.png)
 ---
 Composed of 4 bytes, each composed of 8 bits
 - a part reserved for the machine | part of the network
@@ -20,7 +20,7 @@ They are **not unique**: they are reserved for naming machines in a local networ
 ## Mask
 - Special feature: the masks include a sequence of bits of 1 then 0
 - Number of machines that can be put on a network are defined by mask (right part or upper part)
-![[readme_doc/masque_sous_reseau.png]]
+![[Mask]](/readme_doc/masque_sous_reseau.png)
 
 Example :
 - **IP address: 192.168.0.0**
@@ -30,7 +30,7 @@ Example :
 - **0: identifies the network** (see image: _192.168.0.0_)
 - **255: broadcast address** -> used to send a message to all network addresses (see image: _192.168.0.255_)
 - 256 - 2 = 254 usable addresses
-![[readme_doc/plage_adressable.png]]
+![[Plage]](/readme_doc/plage_adressable.png)
 
 ### CIDR
 = Classless Inter-Domain Routing
